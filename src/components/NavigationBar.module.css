@@ -1,0 +1,23 @@
+nav {
+	padding-left: 50px;
+	/* word-spacing: 30px; */
+}
+
+nav a {
+    padding-left: 15px;
+    padding-right: 15px;
+	font-size: 14px;
+	font-weight: 700;
+	opacity: 0.6;
+	text-decoration: none;
+}
+
+nav a:hover { 
+	color: #61D0D4;		
+	opacity: 1;
+	transition: color 0.3s;
+}
+
+.container {
+  margin: 50px 25%;
+}

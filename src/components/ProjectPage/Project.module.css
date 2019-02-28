@@ -1,0 +1,45 @@
+.container {
+    display: block;
+}
+
+.container h1 {
+    font-size: 40px;
+}
+
+.project {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 30px 0;
+	border-bottom: 1px solid #4C4647;
+}
+
+.project:first-of-type {
+	margin-top: 20px;
+	border-top: 1px solid #4C4647;	
+}
+
+.project img {
+	padding-left: 30px;	
+	width: 70%;
+}
+
+.project h1 {
+	display: flex;
+	width: 100px;
+	height: 100px;
+	background-color: #61D0D4;
+	border-radius: 	100%;
+	color: 	white;
+	font-size: large;	
+	font-weight: lighter;
+	align-items: center;
+	justify-content: center;	
+}
+
+.project h2 {
+	font-size: large;	
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-top: 1px solid #4C4647;
+}

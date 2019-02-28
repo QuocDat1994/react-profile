@@ -1,0 +1,50 @@
+.container {
+	display: grid;
+	grid-template-columns: 0.8fr 1.2fr;
+}
+
+.container section { 
+	margin-left: 30px;
+}
+
+.container section img {
+	width: 400px;
+	border-radius: 100%;
+	margin-left: -40px;
+}
+
+.container section h1 { 
+	font-size: 80px;
+}
+
+.container section h2 { 
+	font-size: 45px;
+	font-weight: lighter;
+}
+
+.circle {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+	margin: 20px auto;	
+}
+
+.circle div {
+	display: flex;
+    height: 120px;
+	border-radius: 100%;
+	color: white;
+	align-items: center;
+	justify-content: center;
+	font-family: "Roboto", serif;	
+    font-size: small;
+	background-color: #61D0D4;    
+}
+
+.circle div:first-of-type {
+	background-color: #E83556;
+}
+
+.circle div:last-of-type {
+	background-color: #D1C926;
+}

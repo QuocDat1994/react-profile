@@ -1,0 +1,12 @@
+header {
+	display: inline;
+}
+
+.name { 
+	font-size: xx-large;
+}
+
+.job {
+	font-size: x-large;
+	font-weight: 300;
+}
