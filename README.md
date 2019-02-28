@@ -66,3 +66,27 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+======================================================================================
+=====================================QUOC DAT NOTE====================================
+======================================================================================
+
+Link Project: https://dat-profile.herokuapp.com/ 
+Link Github:  https://github.com/QuocDat1994/react-profile
+
+This web app was done by implementing basic React Feature:
+- Components
+- Probs
+- Css module
+- Router
+
+It also:
+- Formatted by Prettier
+- Tried to be responsive as much as possible
+
+This web app theme was recreated from Nicola Rider's theme. No code is copied at all!
+Original theme: https://www.wix.com/website-template/view/html/1676?siteId=a2b2ea31-fa89-4af6-839a-0152c05a239e&metaSiteId=25696c7e-f948-43cc-a307-463d74bcc52d&originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fportfolio-cv
+
+======================================================================================
+
+Please give feedbacks for me to improve my coding. Thank you very much!

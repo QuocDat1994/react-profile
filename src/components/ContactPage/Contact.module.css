@@ -1,100 +1,99 @@
 .container {
-	display: grid;
-	grid-template-columns: 0.8fr 1.2fr;
-	margin-bottom: 120px;
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  margin-bottom: 120px;
 }
 
 .container section h1 {
-	font-size: 40px;
+  font-size: 40px;
 }
 
 .form {
-	position: relative;
-	grid-column: 2;
-	padding-top: 10px;
+  position: relative;
+  grid-column: 2;
+  padding-top: 10px;
 }
 
 .form input,
 .form textarea {
-	display: block;
-	width: 100%;
-	margin: 5px auto;
-	color: #EAE4E4;
-    background-color: #E83556;
-    border: none;
+  display: block;
+  width: 100%;
+  margin: 5px auto;
+  color: #eae4e4;
+  background-color: #e83556;
+  border: none;
 }
 
 .form input {
-	height: 30px;
+  height: 30px;
 }
 
 .form textarea {
-	resize: none;
+  resize: none;
 }
 
 .form input::placeholder,
 .form textarea::placeholder {
-	color: #EAE4E4;
-	padding-left: 5px;
+  color: #eae4e4;
+  padding-left: 5px;
 }
 
 .btnSend {
-	position: absolute;	
-	right: 0;
-	width: 50px;
-	padding: 5px;
-    font-family: "Roboto", serif;	
-    font-size: 16px;  
-    font-weight: lighter;
-    border: none;     
-    color: white;
-    background-color: #61D0D4;
+  position: absolute;
+  right: 0;
+  width: 50px;
+  padding: 5px;
+  font-family: "Roboto", serif;
+  font-size: 16px;
+  font-weight: lighter;
+  border: none;
+  color: white;
+  background-color: #61d0d4;
 }
 
 .information {
-	position: relative;
+  position: relative;
 }
 
-.information div { 
-	position: absolute;
-	left: 0;
-	bottom: 0;
+.information div {
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .facebook,
 .linkedin {
-    font-size: x-large;
-	padding: 10px;
-	margin-right: 10px;
-	margin-bottom: 10px;
-	width: 20px;
-	height: 20px;
-	border-radius: 100%;	
-	background-color: black;
-	text-align: center;
+  font-size: x-large;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: black;
+  text-align: center;
 }
 
 .facebook path,
 .linkedin path {
-	color: #EAE4E4;
+  color: #eae4e4;
 }
 
-@media screen and (max-width: 767px)  {
+@media screen and (max-width: 767px) {
+  .container {
+    display: block;
+  }
 
-	.container {
-    	display: block;
-	}
+  .container section h1 {
+    font-size: 30px;
+  }
 
-	.container section h1 {
-    	font-size: 30px;
-	}
+  .information div {
+    position: relative;
+    margin: 20px auto;
+  }
 
-	.information div { 
-	position: relative;
-	margin: 20px auto;
-	}
-
-	.form {
-	width: 100%
-}
+  .form {
+    width: 100%;
+  }
 }

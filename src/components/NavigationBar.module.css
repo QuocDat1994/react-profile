@@ -1,41 +1,41 @@
 nav {
-	padding-left: 50px;
-	z-index: 999;
+  padding-left: 50px;
+  z-index: 999;
 }
 
 nav a {
-    padding-left: 15px;
-    padding-right: 15px;
-	font-size: 14px;
-	font-weight: 700;
-	opacity: 0.6;
-	text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+  font-weight: 700;
+  opacity: 0.6;
+  text-decoration: none;
 }
 
-nav a:hover { 
-	color: #61D0D4;		
-	opacity: 1;
-	transition: color 0.3s;
+nav a:hover {
+  color: #61d0d4;
+  opacity: 1;
+  transition: color 0.3s;
 }
 
 .container {
   margin: 50px 25%;
 }
 
-@media screen and (min-width: 767px) and (max-width: 1024px)  {
+@media screen and (min-width: 767px) and (max-width: 1024px) {
   .container {
-  	margin: 50px 11%;
+    margin: 50px 11%;
   }
 
   nav {
     padding-left: 0px;
-	float: right;    
+    float: right;
   }
 }
 
-@media screen and (max-width: 767px)  {
+@media screen and (max-width: 767px) {
   .container {
-  	margin: 50px 10px;
+    margin: 50px 10px;
   }
 
   nav {
@@ -43,25 +43,22 @@ nav a:hover {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: #4D4D4D;
+    background-color: #4d4d4d;
     padding: 10px 0;
     text-align: center;
     padding-left: 0px;
   }
 
   nav a {
-  	display: inline-block;
+    display: inline-block;
     color: white;
-	opacity: 1;
-
+    opacity: 1;
   }
 }
 
-@media screen and (max-width: 320px)  {
-
+@media screen and (max-width: 320px) {
   nav a {
-  	padding-left: 10px;
-  	padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
-

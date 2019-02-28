@@ -1,100 +1,100 @@
 .container {
-	display: grid;
-	grid-template-columns: 0.8fr 1.2fr;
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
 }
 
-.container section { 
-	margin-left: 30px;
+.container section {
+  margin-left: 30px;
 }
 
 .container section img {
-	width: 400px;
-	border-radius: 100%;
-	margin-left: -40px;
+  width: 400px;
+  border-radius: 100%;
+  margin-left: -40px;
 }
 
-.container section h1 { 
-	font-size: 80px;
+.container section h1 {
+  font-size: 80px;
 }
 
-.container section h2 { 
-	font-size: 45px;
-	font-weight: lighter;
+.container section h2 {
+  font-size: 45px;
+  font-weight: lighter;
 }
 
 .circle {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-column-gap: 10px;
-	margin: 20px auto;	
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  margin: 20px auto;
 }
 
 .circle div {
-	display: flex;
-    height: 120px;
-	border-radius: 100%;
-	color: white;
-	align-items: center;
-	justify-content: center;
-	font-family: "Roboto", serif;	
-    font-size: small;
-	background-color: #61D0D4;
-	transition: all 0.3s ease;
-	cursor: pointer;
+  display: flex;
+  height: 120px;
+  border-radius: 100%;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", serif;
+  font-size: small;
+  background-color: #61d0d4;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .circle div:first-of-type {
-	background-color: #E83556;
+  background-color: #e83556;
 }
 
 .circle div:last-of-type {
-	background-color: #D1C926;
+  background-color: #d1c926;
 }
 
 .circle div:hover {
-	background-color: #45A9AD;		
+  background-color: #45a9ad;
 }
 
 .circle div:first-of-type:hover {
-	background-color: #AD243D;
+  background-color: #ad243d;
 }
 
 .circle div:last-of-type:hover {
-	background-color: #A8A225;		
+  background-color: #a8a225;
 }
 
 @media screen and (max-width: 768px) {
   .container {
-  	display: block;
+    display: block;
     margin: 30px auto;
-        text-align: center;
+    text-align: center;
   }
 
-  .container section { 
+  .container section {
     margin-left: 0;
   }
 
   .container section img {
-	width: 300px;
-	margin-left: 0;
-	}
+    width: 300px;
+    margin-left: 0;
+  }
 
-	.container section h1 { 
-		font-size: xx-large;
-		    margin-top: 20px;
-	}
+  .container section h1 {
+    font-size: xx-large;
+    margin-top: 20px;
+  }
 
-	.container section h2 { 
-		font-size: x-large;
-	}
+  .container section h2 {
+    font-size: x-large;
+  }
 
-	.circle div {
-		height: 180px;
-	}
+  .circle div {
+    height: 180px;
+  }
 }
 
-@media screen and (max-width: 767px){
-	.circle div {
-		height: 100px;
-	}
+@media screen and (max-width: 767px) {
+  .circle div {
+    height: 100px;
+  }
 }

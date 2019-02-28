@@ -1,108 +1,107 @@
 footer {
-	height: 110px;
-	display: grid;
-	grid-template-columns: repeat(6, 1fr);
-    margin-top: 70px;	
-    margin-right: 0;
-    margin-left: 0;
-	padding: auto 5px;    
-    background-color: #E83556;
+  height: 110px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-top: 70px;
+  margin-right: 0;
+  margin-left: 0;
+  padding: auto 5px;
+  background-color: #e83556;
 }
 
 .item {
-	display: grid;
-	grid-template-columns: 1fr 2fr;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 #call {
-	grid-column-start: 2;
+  grid-column-start: 2;
 }
 
 #contact {
-	grid-column-start: 3;
+  grid-column-start: 3;
 }
 
 #follow {
-	grid-column-start: 4;
+  grid-column-start: 4;
 }
 
 #copyright {
-	grid-column-start: 5;
+  grid-column-start: 5;
 }
 
 .phone,
 .envelope,
 .plus,
 .copyright {
-    font-size: x-large;
-	color: #E83556;
-	padding: 10px;
-	border-radius: 100%;	
-	background-color: #61D0D4;
-	align-self: center;
-	justify-self: center;
+  font-size: x-large;
+  color: #e83556;
+  padding: 10px;
+  border-radius: 100%;
+  background-color: #61d0d4;
+  align-self: center;
+  justify-self: center;
 }
 
 .phone path,
 .envelope path,
 .plus path,
 .copyright path {
-	color: #E83556;
+  color: #e83556;
 }
 
 .facebook,
 .linkedin {
-	margin: 5px;
-	color: white;
-	font-size: x-large;
+  margin: 5px;
+  color: white;
+  font-size: x-large;
 }
 
 .facebook path,
 .linkedin path {
-	color: white;
+  color: white;
 }
 
 .detail {
-	align-self: center;
+  align-self: center;
 }
 
 .detail p {
-	color: white;
+  color: white;
 }
 
 @media screen and (max-width: 1024px) {
-  	footer {
-		grid-template-columns: repeat(4, 1fr);
-		font-size: small;
-	}
+  footer {
+    grid-template-columns: repeat(4, 1fr);
+    font-size: small;
+  }
 
-	#call {
-		grid-column-start: 1;
-	}
+  #call {
+    grid-column-start: 1;
+  }
 
-	#contact {
-		grid-column-start: 2;
-	}
+  #contact {
+    grid-column-start: 2;
+  }
 
-	#follow {
-		grid-column-start: 3;
-	}
+  #follow {
+    grid-column-start: 3;
+  }
 
-	#copyright {
-		grid-column-start: 4;
-	}
+  #copyright {
+    grid-column-start: 4;
+  }
 }
 
 @media screen and (max-width: 767px) {
-  	footer {
-		display: block;
-		height: auto;
-	    padding-top: 10px;
-		padding-bottom: 10px;
+  footer {
+    display: block;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 
-	}
-
-	.item {
-		margin: 10px auto;
-	}
+  .item {
+    margin: 10px auto;
+  }
 }
