@@ -8,7 +8,7 @@
 
 .project {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1.1fr 0.9fr;
 	padding: 30px 0;
 	border-bottom: 1px solid #4C4647;
 }
@@ -19,8 +19,11 @@
 }
 
 .project img {
-	padding-left: 30px;	
-	width: 70%;
+	width: 370px;
+	display: flex;
+    align-self: center;
+    justify-content: center;
+	padding-left: 20px;
 }
 
 .project h1 {
@@ -42,4 +45,50 @@
 	padding-top: 10px;
 	padding-bottom: 20px;
 	border-top: 1px solid #4C4647;
+}
+
+.project p {
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px)  {
+	 .project img {
+	width: 85%;
+}
+}
+
+@media screen and (max-width: 767px)  {
+	.container h1 {
+    font-size: 30px;
+}
+
+	.project {
+	display: block;
+	margin-top: 10px; 
+}
+
+  .project img {
+	padding-left: 0;
+	margin: auto;	
+}
+
+.project h1 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+	width: 200px;
+	height: 10px;
+	background-color: unset;
+	border-radius: unset;
+	color: unset;
+	font-size: x-large;	
+	font-weight: bold;
+	align-items: none;
+	justify-content: center;	
+}
+
+.project h2 {
+	border-top: none;
+	padding-bottom: 10px;
+}
 }

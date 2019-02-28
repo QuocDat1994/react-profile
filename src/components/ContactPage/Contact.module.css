@@ -1,10 +1,10 @@
-.containter {
+.container {
 	display: grid;
 	grid-template-columns: 0.8fr 1.2fr;
 	margin-bottom: 120px;
 }
 
-.containter section h1 {
+.container section h1 {
 	font-size: 40px;
 }
 
@@ -77,4 +77,24 @@
 .facebook path,
 .linkedin path {
 	color: #EAE4E4;
+}
+
+@media screen and (max-width: 767px)  {
+
+	.container {
+    	display: block;
+	}
+
+	.container section h1 {
+    	font-size: 30px;
+	}
+
+	.information div { 
+	position: relative;
+	margin: 20px auto;
+	}
+
+	.form {
+	width: 100%
+}
 }

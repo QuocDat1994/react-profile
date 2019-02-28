@@ -12,9 +12,9 @@ export function Home (props) {
 				<h1>Hello,</h1>
 				<h2>a bit about me:</h2>
 				<div className={styles.circle}>
-					<ButtonCircle text={"MY RESUME"}/>
-					<ButtonCircle text={"MY WORK"} />
-					<ButtonCircle text={"MY SKILLS"}/>
+					<ButtonCircle text={"MY RESUME"} redirect="nav_resume"/>
+					<ButtonCircle text={"MY WORK"} redirect="nav_projects"/>
+					<ButtonCircle text={"MY SKILLS"} redirect="nav_resume"/>
 				</div>
 				<p>{props.commonInfo.introduction}</p>
 			</section>

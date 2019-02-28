@@ -18,14 +18,16 @@ const commonInfo = {
 
 const projects = [
 	{
-		projectName: "Comico Indo",
+		projectName: "Comico Indonesia",
 		summary: "Comico is a webtoon portal based in Indonesia that is part of NHN Corporation. It was first lauched in 2017.",
-		projectImg: "https://i.imgur.com/hccYIVU.jpg",
+		projectImg: "https://i.imgur.com/oLU92uw.jpg",
+		link: "http://www.comico.co.id/"
 	}, 
 	{
-		projectName: "Comico Indo",
-		summary: "Comico is a webtoon portal based in Indonesia that is part of NHN Corporation. It was first lauched in 2017.",
-		projectImg: "https://i.imgur.com/hccYIVU.jpg",
+		projectName: "Cheer Up KPI",
+		summary: "Cheer Up KPI is a business mobile app for recruitment/temporary staff agency's sales person or consultant.",
+		projectImg: "https://i.imgur.com/2xswJqI.jpg",
+		link: "https://appadvice.com/app/cheer-up-kpi/1035541546",
 	}
 ]
 
@@ -33,12 +35,12 @@ const workExperience = [
 	{
 		company: "NHN Vietnam",
 		time: "Sep 2018 - Now",
-		summary: "dsadsadsa"
+		summary: "Maintain and develop new feature for an Indonesia webtoon portal. Collaborate in a team of 5 members. Using Java Spring as core for back-end and Javascript, HTML/CSS for front-end."
 	}, 
 	{
 		company: "Persol Process & Technology",
 		time: "Oct 2015 - Oct 2017",
-		summary: "Developed projects using a variety of technologies, languages and programming tools. Investigated technical errors in existing projects, maintain and optimize projects. Collaborated with small teams (3-5 members) to quickly implement and deliver application, following the Agile/Scrum Methodology. Worked independently and interact directly with clients in Japan. Develop and customize applications based on client’s requests and feedbacks."
+		summary: "Developed projects using a variety of languages and tools. Investigated technical errors in existing projects, maintain and optimize projects. Collaborated in small teams (3-5 members) to quickly implement and deliver application, following the Agile/Scrum Methodology. Interacted directly with clients in Japan. Developed and customized applications based on client’s requests and feedbacks."
 	}
 ]
 
@@ -52,7 +54,7 @@ const education = [
 ]
 
 const skills =	{
-	programmingSkill: ["Java", "Android", "Javascript", "Html", "CSS"],
+	programmingSkill: ["Java", "C#", "Android", "Javascript", "Html", "CSS"],
 	languageSkill: ["English", "Japanese"]
 }
 

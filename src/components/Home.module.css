@@ -38,7 +38,9 @@
 	justify-content: center;
 	font-family: "Roboto", serif;	
     font-size: small;
-	background-color: #61D0D4;    
+	background-color: #61D0D4;
+	transition: all 0.3s ease;
+	cursor: pointer;
 }
 
 .circle div:first-of-type {
@@ -47,4 +49,52 @@
 
 .circle div:last-of-type {
 	background-color: #D1C926;
+}
+
+.circle div:hover {
+	background-color: #45A9AD;		
+}
+
+.circle div:first-of-type:hover {
+	background-color: #AD243D;
+}
+
+.circle div:last-of-type:hover {
+	background-color: #A8A225;		
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+  	display: block;
+    margin: 30px auto;
+        text-align: center;
+  }
+
+  .container section { 
+    margin-left: 0;
+  }
+
+  .container section img {
+	width: 300px;
+	margin-left: 0;
+	}
+
+	.container section h1 { 
+		font-size: xx-large;
+		    margin-top: 20px;
+	}
+
+	.container section h2 { 
+		font-size: x-large;
+	}
+
+	.circle div {
+		height: 180px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.circle div {
+		height: 100px;
+	}
 }

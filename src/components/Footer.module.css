@@ -5,6 +5,7 @@ footer {
     margin-top: 70px;	
     margin-right: 0;
     margin-left: 0;
+	padding: auto 5px;    
     background-color: #E83556;
 }
 
@@ -67,4 +68,41 @@ footer {
 
 .detail p {
 	color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  	footer {
+		grid-template-columns: repeat(4, 1fr);
+		font-size: small;
+	}
+
+	#call {
+		grid-column-start: 1;
+	}
+
+	#contact {
+		grid-column-start: 2;
+	}
+
+	#follow {
+		grid-column-start: 3;
+	}
+
+	#copyright {
+		grid-column-start: 4;
+	}
+}
+
+@media screen and (max-width: 767px) {
+  	footer {
+		display: block;
+		height: auto;
+	    padding-top: 10px;
+		padding-bottom: 10px;
+
+	}
+
+	.item {
+		margin: 10px auto;
+	}
 }

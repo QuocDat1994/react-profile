@@ -109,3 +109,47 @@
 }
 
 
+@media screen and (max-width: 767px)  {
+	.container h1 {
+    	font-size: 30px;
+	}
+
+	.resume {
+	display: block;
+	}
+	.experience {
+	display: block;
+	}
+
+	.experience h1 {
+	display: flex;
+	margin: auto;
+	font-size: large;
+	text-align: center; 
+	margin-bottom: 15px; 
+	}
+
+	.skill {
+	margin: 20px 20px 0px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.skill section {
+	margin-bottom: 20px;
+}
+
+.skill  h1 {
+	font-size: x-large;
+	border-bottom: none;	
+	padding: 0;
+}
+.experience:last-of-type {
+	border-top: 1px solid #4C4647;	
+
+	}
+
+
+}
+

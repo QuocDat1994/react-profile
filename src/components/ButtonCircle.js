@@ -6,11 +6,13 @@ class ButtonCircle extends Component {
 
 	constructor(props) {
 	    super(props);
+
+	    this.redirect = props.redirect;
 	    this.handleClick = this.handleClick.bind(this);
  	}
 
 	handleClick() {
-	    alert("Haven't handled yet, sorry! : (");
+		document.getElementById(this.redirect).click(); 
   	}
 
 	render() {

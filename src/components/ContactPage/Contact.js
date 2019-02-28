@@ -12,7 +12,7 @@ library.add(faLinkedin);
 
 export function Contact (props) {
     return (
-        <main className={styles.containter}>
+        <main className={styles.container}>
 			<section className={styles.information}>
 				<h1>CONTACT</h1>
 				<div>

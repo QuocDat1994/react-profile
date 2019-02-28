@@ -14,8 +14,8 @@ export function NavigationBar (props) {
                 <Header commonInfo={props.commonInfo}/>
                 <nav>
                     <NavLink to="/">HOME</NavLink>
-                    <NavLink to="/resume">RESUME</NavLink>
-                    <NavLink to="/projects">PROJECTS</NavLink>
+                    <NavLink to="/resume" id="nav_resume">RESUME</NavLink>
+                    <NavLink to="/projects" id="nav_projects">PROJECTS</NavLink>
                     <NavLink to="/contact">CONTACT</NavLink>
                 </nav>
                 <Route exact path="/" 
