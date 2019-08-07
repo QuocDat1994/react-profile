@@ -1,0 +1,22 @@
+.detail {
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+.detail p {
+  line-height: 1.2rem;
+  font-size: 1.2rem;
+}
+
+.detail p:last-of-type {
+  padding-top: 0.5rem;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Mobile & Tablet */
+@media screen and (max-width: 768px) {
+  .detail {
+    padding-right: 0;
+  }
+}

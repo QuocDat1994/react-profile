@@ -1,0 +1,80 @@
+.home {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template:
+    "avatar hello"
+    "avatar button_group"
+    "avatar intro";
+}
+
+.home .hello {
+  grid-area: hello;
+}
+
+.home .hello p:first-child {
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.home .hello p:nth-child(2) {
+  font-size: 3rem;
+  padding-top: 1rem;
+}
+
+.home .avatar {
+  grid-area: avatar;
+  margin-left: -2rem;
+  margin-right: 2rem;
+}
+
+.home .avatar img {
+  width: 22rem;
+  border-radius: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.button_group {
+  grid-area: button_group;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  margin: 1rem 0;
+}
+
+.home .intro {
+  grid-area: intro;
+  line-height: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Mobile & Tablet */
+@media screen and (max-width: 768px) {
+  .home {
+    grid-template-columns: auto;
+    grid-template:
+      "hello"
+      "button_group"
+      "avatar"
+      "intro";
+  }
+
+  .home > * {
+    padding-top: 1rem;
+  }
+
+  .home .avatar {
+    margin-top: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .home .intro {
+    padding-top: 2rem;
+    font-size: 1.2rem;
+  }
+
+  .button_group {
+    display: none;
+  }
+}

@@ -1,0 +1,24 @@
+.main {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.main h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Mobile & Tablet*/
+@media screen and (max-width: 1024px) {
+  .main {
+    width: var(--mobile-width);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+    width: var(--mobile-width);
+  }
+}
