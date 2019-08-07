@@ -32,10 +32,10 @@ export const Footer = () => {
           <FontAwesomeIcon icon={faPlus} className={styles.icon} />
           <p>Follow me on</p>
           <p>
-            <LinkIcon href={linkedin} icon={faLinkedin} style="footer" />
-            <LinkIcon href={skype} icon={faSkype} style="footer" />
-            <LinkIcon href={codepen} icon={faCodepen} style="footer" />
-            <LinkIcon href={github} icon={faGithub} style="footer" />
+            <LinkIcon href={linkedin} icon={faLinkedin} styles="footer" />
+            <LinkIcon href={skype} icon={faSkype} styles="footer" />
+            <LinkIcon href={codepen} icon={faCodepen} styles="footer" />
+            <LinkIcon href={github} icon={faGithub} styles="footer" />
           </p>
         </section>
         <section
