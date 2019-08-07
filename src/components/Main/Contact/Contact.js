@@ -21,11 +21,11 @@ export const Contact = () => {
       <section className={styles.container}>
         <section>
           <section className={styles.info}>
-            <section className>
-              <LinkIcon href={linkedin} icon={faLinkedin} style="contact" />
-              <LinkIcon href={skype} icon={faSkype} style="contact" />
-              <LinkIcon href={codepen} icon={faCodepen} style="contact" />
-              <LinkIcon href={github} icon={faGithub} style="contact" />
+            <section>
+              <LinkIcon href={linkedin} icon={faLinkedin} styles="contact" />
+              <LinkIcon href={skype} icon={faSkype} styles="contact" />
+              <LinkIcon href={codepen} icon={faCodepen} styles="contact" />
+              <LinkIcon href={github} icon={faGithub} styles="contact" />
             </section>
             <p>
               <b>Cell:</b> {phone}
