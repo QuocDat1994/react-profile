@@ -22,7 +22,7 @@
   margin-bottom: 1rem;
 }
 
-.item .detail p:first-of-type {
+.item .detail .projectNo {
   width: 6rem;
   height: 6rem;
   display: inline-flex;
@@ -33,16 +33,19 @@
   background: var(--secondary-color);
 }
 
-.item .detail p:nth-of-type(2) {
+.item .detail .projectName {
   font-size: 1.2rem;
   font-weight: bold;
   padding-top: 1rem;
   border-top: 1px solid var(--text-color);
 }
 
-.item .detail p:last-of-type {
+.item .detail .projectDes {
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 0.5rem;
+}
+
+.item .detail .projectDes p {
+  margin: 0.5rem 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -54,11 +57,11 @@
     margin-left: 0;
   }
 
-  .item .detail p:first-of-type {
+  .item .detail .projectNo {
     display: none;
   }
 
-  .item .detail p:nth-of-type(2) {
+  .item .detail .projectName {
     padding-top: 2rem;
     border-top: 0;
   }

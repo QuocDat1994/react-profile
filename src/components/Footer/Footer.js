@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Footer.module.css";
+import styleIcon from "../Common/LinkIcon.module.css";
 import { LinkIcon } from "../Common/LinkIcon";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
@@ -32,10 +33,14 @@ export const Footer = () => {
           <FontAwesomeIcon icon={faPlus} className={styles.icon} />
           <p>Follow me on</p>
           <p>
-            <LinkIcon href={linkedin} icon={faLinkedin} styles="footer" />
-            <LinkIcon href={skype} icon={faSkype} styles="footer" />
-            <LinkIcon href={codepen} icon={faCodepen} styles="footer" />
-            <LinkIcon href={github} icon={faGithub} styles="footer" />
+            <LinkIcon
+              href={linkedin}
+              icon={faLinkedin}
+              style={styleIcon.small}
+            />
+            <LinkIcon href={skype} icon={faSkype} style={styleIcon.small} />
+            <LinkIcon href={codepen} icon={faCodepen} style={styleIcon.small} />
+            <LinkIcon href={github} icon={faGithub} style={styleIcon.small} />
           </p>
         </section>
         <section

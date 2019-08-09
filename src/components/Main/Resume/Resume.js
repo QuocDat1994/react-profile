@@ -15,7 +15,7 @@ export const Resume = () => {
       <section className={styles.container}>
         <section className={styles.experience}>
           <article className={styles.item}>
-            <h2>Professional ​ info​​</h2>
+            <h2>Work Experience​​</h2>
             <section>
               {experienceData["work"].map(data => (
                 <Experience

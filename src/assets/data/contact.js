@@ -12,5 +12,5 @@ export const contact = {
   codepen: "https://codepen.io/quocdat1994/",
   github: "https://github.com/QuocDat1994",
   intro:
-    "Software developer with 2 years of experience in developing and maintaining Java/Android/Web application. Easily collaborate in a team or work independently. Have experience working directly with Japanese clients. Enjoy problems solving and self-research new technology."
+    "Hello! I’m Dat! I love creation. I want to create something that everybody can enjoy. That's why I become a developer! Until now, I have been working for 3 years, specializing in Front - End development.I love Javascript, as well as its frameworks jQuery and React.js. My experiences have taught me that understanding 'the core' is essential in programming, no matter which languages you are using. I also enjoy researching new technology.Learning is a never- ending journey, gotta keep learning right?!"
 };
