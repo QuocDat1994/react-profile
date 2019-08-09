@@ -1,27 +1,34 @@
 export const experience = {
   work: [
     {
-      job: "Software Developer",
+      job: "Web Developer",
       company: "NHN Vietnam",
-      time: "2019-then",
+      time: "July 2018 - Present",
       description:
-        "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to write more. Tell a story about yourself."
+        "Maintain and develop new features for webtoon portals. Collaborate in a team of 5 members. Using Java Spring as core for back-end and Javascript/jQuery, HTML, CSS for front-end."
+    },
+    {
+      job: "Editor in Chief",
+      company: "SENO Ltd.",
+      time: "July 2013 - Dec 2018",
+      description:
+        "Writing and editing magazine articles. Planning new content for each issue. Non-IT related job."
     },
     {
       job: "Software Developer",
-      company: "NHN Vietnam",
-      time: "2019-then",
+      company: "Persol Process & Technology",
+      time: "Oct 2015 - Oct 2017",
       description:
-        "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to write more. Tell a story about yourself."
+        "Collaborated in small teams following the Agile/Scrum Methodology. Interacted directly with clients in Japan. Developed and customized applications based on client’s requests."
     }
   ],
   education: [
     {
-      job: "Software Developer",
-      company: "NHN Vietnam",
-      time: "2019-then",
+      job: "Bachelor of IT",
+      company: "RMIT University Vietnam",
+      time: "2013 - 2016",
       description:
-        "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me and you can start adding your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to write more. Tell a story about yourself."
+        "Bachelor Of Information Technology in Application Programming. Graduated with Distinction."
     }
   ]
 };

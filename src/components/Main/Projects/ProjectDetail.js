@@ -11,9 +11,13 @@ export const ProjectDetail = props => {
         <img src={thumbnail.src} alt={thumbnail.alt} />
       </div>
       <section className={styles.detail}>
-        <p>Project | {projectNo}</p>
-        <p>{name}</p>
-        <p>{description}</p>
+        <p className={styles.projectNo}>Project | {projectNo}</p>
+        <p className={styles.projectName}>{name}</p>
+        <p className={styles.projectDes}>
+          {description.map(line => (
+            <p>{line}</p>
+          ))}
+        </p>
       </section>
     </section>
   );

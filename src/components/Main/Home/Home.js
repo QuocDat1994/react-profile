@@ -18,7 +18,14 @@ export const Home = () => {
         <RoundButton text="My works" target="nav_projects" />
         <RoundButton text="My skills" target="nav_resume" />
       </section>
-      <p className={styles.intro}>{contactData.intro}</p>
+      <p className={styles.intro}>
+        I love creation. I want to create something that everybody can enjoy.
+        That's why I become a developer!
+        <br />
+        <br />I have been working for 3 years, specializing in Front-End
+        development. I love Javascript, as well as its frameworks jQuery and
+        React.js.
+      </p>
     </section>
   );
 };

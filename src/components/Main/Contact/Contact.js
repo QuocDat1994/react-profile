@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Contact.module.css";
+import styleIcon from "../../Common/LinkIcon.module.css";
 import { LinkIcon } from "../../Common/LinkIcon";
 import { faSkype } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -22,10 +23,18 @@ export const Contact = () => {
         <section>
           <section className={styles.info}>
             <section>
-              <LinkIcon href={linkedin} icon={faLinkedin} styles="contact" />
-              <LinkIcon href={skype} icon={faSkype} styles="contact" />
-              <LinkIcon href={codepen} icon={faCodepen} styles="contact" />
-              <LinkIcon href={github} icon={faGithub} styles="contact" />
+              <LinkIcon
+                href={linkedin}
+                icon={faLinkedin}
+                style={styleIcon.large}
+              />
+              <LinkIcon href={skype} icon={faSkype} style={styleIcon.large} />
+              <LinkIcon
+                href={codepen}
+                icon={faCodepen}
+                style={styleIcon.large}
+              />
+              <LinkIcon href={github} icon={faGithub} style={styleIcon.large} />
             </section>
             <p>
               <b>Cell:</b> {phone}
