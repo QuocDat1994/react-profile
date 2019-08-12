@@ -1,16 +1,16 @@
 export const skills = {
   Coding: [
-    "Java",
-    "C#",
     "Javascript",
     "jQuery",
     "React.js",
     "HTML",
+    "Bootstrap",
     "CSS",
     "SASS",
-    "Bootstrap",
+    "Java",
     "Android",
-    "Unity"
+    "Unity",
+    "Git"
   ],
   "Soft Skills": ["Research", "Teamwork", "Communication", "Time Management"],
   Language: ["Vietnamese", "English"]
