@@ -5,14 +5,14 @@ export const experience = {
       company: "NHN Vietnam",
       time: "July 2018 - Present",
       description:
-        "Maintain and develop new features for webtoon portals. Collaborate in a team of 5 members. Using Java Spring as core for back-end and Javascript/jQuery, HTML, CSS for front-end."
+        "Maintaining and developing new features for webtoon portals. Collaborating in a team of 5 members. Using Java for back-end and Javascript/jQuery, HTML, CSS for front-end."
     },
     {
       job: "Editor in Chief",
       company: "SENO Ltd.",
       time: "July 2013 - Dec 2018",
       description:
-        "Writing and editing magazine articles. Planning new content for each issue. Non-IT related job."
+        "Wrote and edited magazine articles. Planned new content for each issue. Non-IT related job."
     },
     {
       job: "Software Developer",
